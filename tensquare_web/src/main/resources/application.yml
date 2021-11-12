@@ -1,0 +1,28 @@
+server:
+  port: 9012
+spring:
+  application:
+    name: tensquare-web
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true
+zuul:
+  host:
+    max-total-connections: 500
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+          
+
+ribbon:
+  ReadTimeout: 3000
+  ConnentTimout: 3000
+  eureka:
+    enabled: true

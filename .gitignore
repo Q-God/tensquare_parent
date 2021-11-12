@@ -1,0 +1,10 @@
+# Project exclude paths
+/mongodb_demo/target/
+/Spring-websocket/target/
+/tensquare_article/target/
+/tensquare_base/target/
+/tensquare_common/target/
+/tensquare_encrypt/target/
+/tensquare_eureka/target/
+/tensquare_notice/target/
+/tensquare_user/target/
